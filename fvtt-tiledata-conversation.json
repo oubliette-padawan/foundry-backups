@@ -1,0 +1,220 @@
+{
+  "texture": {
+    "src": "icons/svg/deaf.svg",
+    "scaleX": 1,
+    "scaleY": 1,
+    "tint": null,
+    "offsetX": 0,
+    "offsetY": 0,
+    "rotation": 0
+  },
+  "x": 1000,
+  "y": 700,
+  "z": 100,
+  "width": 300,
+  "height": 300,
+  "rotation": 0,
+  "alpha": 1,
+  "flags": {
+    "tagger": {
+      "tags": [
+        "conversation"
+      ]
+    },
+    "monks-active-tiles": {
+      "active": false,
+      "record": false,
+      "restriction": "all",
+      "controlled": "all",
+      "trigger": [
+        "enter"
+      ],
+      "allowpaused": false,
+      "usealpha": false,
+      "pointer": false,
+      "vision": true,
+      "pertoken": false,
+      "minrequired": 0,
+      "cooldown": null,
+      "chance": 100,
+      "fileindex": 0,
+      "actions": [
+        {
+          "action": "movement",
+          "data": {
+            "snap": true
+          },
+          "id": "9cjgZaED30N08iGj"
+        },
+        {
+          "action": "chatmessage",
+          "data": {
+            "flavor": "Goblin Conversation 1",
+            "text": "I'm tired of sitting out here. It's cold and my balls are climbing into my belly!",
+            "entity": {
+              "id": "tagger:goblin-one",
+              "match": "all",
+              "scene": "_active",
+              "name": "<i class=\"fas fa-tag fa-sm\"></i> goblin-one"
+            },
+            "incharacter": false,
+            "chatbubble": "true",
+            "showto": "everyone",
+            "language": "Goblin"
+          },
+          "id": "Lu3FkgnMZR1odCb1"
+        },
+        {
+          "action": "playsound",
+          "data": {
+            "audiofile": "https://assets.forge-vtt.com/63d172b145f3446cd6e46079/assets/sounds/creature-sounds/goblin.m4a",
+            "audiofor": "everyone",
+            "volume": 1,
+            "loop": false,
+            "fade": 0.25,
+            "scenerestrict": true,
+            "prevent": false,
+            "delay": true,
+            "playlist": true
+          },
+          "id": "H3Jct9RPy9KDhWUF"
+        },
+        {
+          "action": "delay",
+          "data": {
+            "delay": "5"
+          },
+          "id": "weKEHszN2D10gzXP"
+        },
+        {
+          "action": "chatmessage",
+          "data": {
+            "flavor": "hobgoblin chat",
+            "text": "I don't give a shit about your balls, you worthless ballbag! The Master said we wait, then we wait! So shut your fucking mouth and get this fucking fire started already!",
+            "entity": {
+              "id": "tagger:hobgoblin",
+              "match": "all",
+              "scene": "_active",
+              "name": "<i class=\"fas fa-tag fa-sm\"></i> hobgoblin"
+            },
+            "incharacter": true,
+            "chatbubble": "true",
+            "showto": "everyone",
+            "language": "[object Object]"
+          },
+          "id": "GRBoUFoVjtDSYPTJ"
+        },
+        {
+          "action": "playsound",
+          "data": {
+            "audiofile": "https://assets.forge-vtt.com/63d172b145f3446cd6e46079/assets/sounds/creature-sounds/Hobgoblin.m4a",
+            "audiofor": "everyone",
+            "volume": 1,
+            "loop": false,
+            "fade": 0.25,
+            "scenerestrict": false,
+            "prevent": false,
+            "delay": true,
+            "playlist": true
+          },
+          "id": "pcQ7NAudORrDLNPJ"
+        },
+        {
+          "action": "delay",
+          "data": {
+            "delay": "5"
+          },
+          "id": "plVMivfBCdIshBIy"
+        },
+        {
+          "action": "chatmessage",
+          "data": {
+            "flavor": "goblin 2",
+            "text": "We listen we listen! Easy easy, big boss! We get going!",
+            "entity": {
+              "id": "tagger:goblin-two",
+              "match": "all",
+              "scene": "_active",
+              "name": "<i class=\"fas fa-tag fa-sm\"></i> goblin-two"
+            },
+            "incharacter": true,
+            "chatbubble": "true",
+            "showto": "everyone",
+            "language": "[object Object]"
+          },
+          "id": "pRD6xFez8IaREI4D"
+        },
+        {
+          "action": "playsound",
+          "data": {
+            "audiofile": "https://assets.forge-vtt.com/63d172b145f3446cd6e46079/assets/sounds/creature-sounds/goblin2.m4a",
+            "audiofor": "everyone",
+            "volume": 1,
+            "loop": false,
+            "fade": 0.25,
+            "scenerestrict": false,
+            "prevent": false,
+            "delay": true,
+            "playlist": true
+          },
+          "id": "LOYsLkWUYfhFMQUw"
+        },
+        {
+          "action": "delay",
+          "data": {
+            "delay": "3"
+          },
+          "id": "rjhh1ndk0J4kZVCW"
+        },
+        {
+          "action": "pancanvas",
+          "data": {
+            "location": {
+              "id": "token",
+              "name": "Triggering Token"
+            },
+            "animate": false,
+            "duration": 1,
+            "panfor": "everyone"
+          },
+          "id": "sRqQH5orL4FyYTOl"
+        },
+        {
+          "action": "activate",
+          "data": {
+            "entity": "",
+            "collection": "tiles",
+            "activate": "deactivate"
+          },
+          "id": "LKdMLRYUu5UqHuf0"
+        }
+      ],
+      "files": []
+    },
+    "exportSource": {
+      "world": "aefenfeldandd5e",
+      "system": "dnd5e",
+      "coreVersion": "11.315",
+      "systemVersion": "2.4.1"
+    }
+  },
+  "overhead": false,
+  "roof": false,
+  "occlusion": {
+    "mode": 1,
+    "alpha": 0,
+    "radius": null
+  },
+  "video": {
+    "loop": true,
+    "autoplay": true,
+    "volume": 0
+  },
+  "hidden": true,
+  "locked": false,
+  "id": "cfCVP1DUH6mrF1bP",
+  "name": "conversation",
+  "visible": true,
+  "img": "icons/svg/deaf.svg",
+  "thumbnail": "icons/svg/deaf.svg"
+}
