@@ -1,0 +1,25 @@
+{
+  "title": "Aefen'Fel: A Mad Season(D&D5e)",
+  "id": "world.aefenfeldandd5e.2024-11-09.1731143392402",
+  "system": "dnd5e",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "description": "<p>Aefen’Fel is a world divided: Elves have retreated from the rest of the races, and with the rise of The Hegemony, human influence grows. Humans and many of the other races seem poised for war, as tensions continue to flair along borders. The Hegemony itself is rife with power struggles and backstabbings, as the each of the rulers of the four city-states vies for the High Throne.</p>\n<p>In some parts of the world, things are much simpler, yet every bit as brutal. A group of adventurers answers the calls for help that come from the small village of Vel Urso. Vel Urso is only on the map at all due to their ability to trade goods with the Elven Kingdom of Aefen’Fel. The proximity, and relaxed racial judgements means that you will see a wide variety of races and cultures in a very small area.</p>",
+  "relationships": {
+    "requires": [],
+    "systems": [],
+    "recommends": [],
+    "conflicts": [],
+    "flags": {}
+  },
+  "version": "0",
+  "size": 36857003,
+  "note": "LatestBackup-11-29-24",
+  "snapshotId": null,
+  "originalSize": 68122313,
+  "createdAt": 1731143392405,
+  "packageId": "aefenfeldandd5e",
+  "type": "world"
+}
